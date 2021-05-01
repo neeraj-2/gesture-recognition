@@ -10,6 +10,7 @@ import React, { useRef, useState, useEffect } from "react";
 ///////// NEW STUFF ADDED USE STATE
 
 // import logo from './logo.svg';
+// eslint-disable-next-line no-unused-vars
 import * as tf from "@tensorflow/tfjs";
 import * as handpose from "@tensorflow-models/handpose";
 import Webcam from "react-webcam";
