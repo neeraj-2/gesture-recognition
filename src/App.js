@@ -101,7 +101,9 @@ function App() {
 
   return (
     <div className="App">
+        <h1>Show me Thumbs up sign or peace sign I will detect which one u are showing :)</h1>
       <header className="App-header">
+        <h1>Show me Your Hand :)</h1>
         <Webcam
           ref={webcamRef}
           style={{
