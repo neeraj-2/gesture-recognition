@@ -131,6 +131,7 @@ function App() {
         />
         {/* NEW STUFF */}
         {emoji !== null ? (
+          // eslint-disable-next-line jsx-a11y/alt-text
           <img
             src={images[emoji]}
             style={{
